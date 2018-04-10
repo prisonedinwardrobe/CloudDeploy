@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "97e818853b02efedc39c6bf2d8af0be9"
-build_time: [1523381961, 872655000]
-inputs:
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [1523381907, 0]
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [1523381907, 0]

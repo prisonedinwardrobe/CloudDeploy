@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "e5cf7bf0b9525946959b57a57ef7fddd"
-build_time: [1523381932, 866595000]
-inputs:
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/debugging.git-4365319567167379684/Sources/Debugging/Debuggable.swift": [1523381900, 0]

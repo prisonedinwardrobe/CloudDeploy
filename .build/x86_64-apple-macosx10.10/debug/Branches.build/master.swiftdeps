@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "5c7aa048fd43c54895d723969f38d518"
-build_time: [1523381962, 937205000]
-inputs:
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch+Paths.swift": [1523381904, 0]
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch.swift": [1523381904, 0]
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/SubBranchMap.swift": [1523381904, 0]

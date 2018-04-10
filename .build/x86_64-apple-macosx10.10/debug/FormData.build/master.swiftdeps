@@ -1,8 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "9f613ad88ca1b080ddba7995b7e43cf6"
-build_time: [1523381997, 190009000]
-inputs:
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/ContentDispositionParser.swift": [1523381908, 0]
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Field.swift": [1523381908, 0]
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Parser.swift": [1523381908, 0]
-  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Serializer.swift": [1523381908, 0]
