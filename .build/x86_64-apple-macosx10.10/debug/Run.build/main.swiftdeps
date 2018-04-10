@@ -1,0 +1,500 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "config"
+- "drop"
+- "TestResponse"
+- "PostDataBase"
+- "postDataBase"
+- "tryJsonEncode"
+provides-nominal:
+- "3Run12TestResponseV"
+- "3Run12PostDataBaseV"
+provides-member:
+- ["3Run12TestResponseV", ""]
+- ["3Run12PostDataBaseV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "!="
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Codable"
+- "Config"
+- "Date"
+- "Droplet"
+- !private "JSONEncoder"
+- !private "JSONSerialization"
+- "PostDataBase"
+- "String"
+- "StringLiteralType"
+- "TestResponse"
+- "TimeInterval"
+- !private "UUID"
+- "config"
+- "drop"
+- "postDataBase"
+- "tryJsonEncode"
+- !private "~="
+depends-member:
+- ["Sa", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["4HTTP17BodyRepresentableP", "init"]
+- ["4HTTP17BodyRepresentableP", "string"]
+- ["4HTTP17BodyRepresentableP", "subscript"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["4Bits16BytesConvertibleP", "init"]
+- ["4Bits16BytesConvertibleP", "string"]
+- ["4Bits16BytesConvertibleP", "subscript"]
+- ["4Bits18BytesInitializableP", "init"]
+- ["4Bits18BytesInitializableP", "string"]
+- ["4Bits18BytesInitializableP", "subscript"]
+- ["4Bits18BytesRepresentableP", "init"]
+- ["4Bits18BytesRepresentableP", "string"]
+- ["4Bits18BytesRepresentableP", "subscript"]
+- ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "updateValue"]
+- ["s7CVarArgP", "values"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s10CollectionP", "init"]
+- ["s10CollectionP", "subscript"]
+- ["s10CollectionP", "updateValue"]
+- ["s10CollectionP", "values"]
+- ["s10ComparableP", "init"]
+- ["s10ComparableP", "timeIntervalSince1970"]
+- ["7Configs6ConfigC", "init"]
+- ["7Configs6ConfigC", "setup"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- ["s28CustomDebugStringConvertibleP", "updateValue"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- ["s28CustomDebugStringConvertibleP", "values"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "timeIntervalSince1970"]
+- ["s17CustomReflectableP", "updateValue"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- ["s17CustomReflectableP", "values"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "json"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- ["s23CustomStringConvertibleP", "updateValue"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- ["s23CustomStringConvertibleP", "values"]
+- ["10Foundation4DateV", "init"]
+- ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["s9DecodableP", "Date"]
+- !private ["s9DecodableP", "UUID"]
+- ["s9DecodableP", ""]
+- ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "date_create"]
+- ["s9DecodableP", "date_update"]
+- ["s9DecodableP", "encode"]
+- ["s9DecodableP", "id"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "subscript"]
+- ["s9DecodableP", "text"]
+- ["s9DecodableP", "timeIntervalSince1970"]
+- ["s9DecodableP", "title"]
+- ["s9DecodableP", "updateValue"]
+- !private ["s9DecodableP", "uuidString"]
+- ["s9DecodableP", "values"]
+- !private ["s7DecoderP", "container"]
+- ["s10DictionaryV", "subscript"]
+- ["s10DictionaryV", "updateValue"]
+- ["s10DictionaryV", "values"]
+- ["5Vapor7DropletC", "delete"]
+- ["5Vapor7DropletC", "get"]
+- ["5Vapor7DropletC", "init"]
+- ["5Vapor7DropletC", "patch"]
+- ["5Vapor7DropletC", "post"]
+- ["5Vapor7DropletC", "run"]
+- ["5Vapor7DropletC", "setup"]
+- ["4SMTP25EmailAddressRepresentableP", "init"]
+- ["4SMTP22EmailBodyRepresentableP", "init"]
+- !private ["s9EncodableP", "Date"]
+- !private ["s9EncodableP", "UUID"]
+- ["s9EncodableP", ""]
+- ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "date_create"]
+- ["s9EncodableP", "date_update"]
+- ["s9EncodableP", "encode"]
+- ["s9EncodableP", "id"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "subscript"]
+- ["s9EncodableP", "text"]
+- ["s9EncodableP", "timeIntervalSince1970"]
+- ["s9EncodableP", "title"]
+- ["s9EncodableP", "updateValue"]
+- !private ["s9EncodableP", "uuidString"]
+- ["s9EncodableP", "values"]
+- !private ["s7EncoderP", "container"]
+- !private ["s9EquatableP", ""]
+- ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allowFragments"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "jsonObject"]
+- ["s9EquatableP", "setup"]
+- ["s9EquatableP", "string"]
+- ["s9EquatableP", "stringValue"]
+- ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "timeIntervalSince1970"]
+- ["s9EquatableP", "updateValue"]
+- !private ["s9EquatableP", "uuidString"]
+- ["s9EquatableP", "values"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "setup"]
+- ["s25ExpressibleByArrayLiteralP", "string"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- ["s27ExpressibleByBooleanLiteralP", "setup"]
+- ["s27ExpressibleByBooleanLiteralP", "string"]
+- ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "setup"]
+- ["s30ExpressibleByDictionaryLiteralP", "string"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "updateValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "values"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "setup"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "setup"]
+- ["s25ExpressibleByFloatLiteralP", "string"]
+- ["s25ExpressibleByFloatLiteralP", "subscript"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "setup"]
+- ["s27ExpressibleByIntegerLiteralP", "string"]
+- ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- ["s23ExpressibleByNilLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "setup"]
+- ["s23ExpressibleByNilLiteralP", "string"]
+- ["s23ExpressibleByNilLiteralP", "subscript"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "setup"]
+- ["s26ExpressibleByStringLiteralP", "string"]
+- ["s26ExpressibleByStringLiteralP", "subscript"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "setup"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- ["4Node14FuzzyConverterP", "string"]
+- ["4Node14FuzzyConverterP", "subscript"]
+- !private ["s8HashableP", ""]
+- ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "jsonObject"]
+- ["s8HashableP", "stringValue"]
+- ["s8HashableP", "timeIntervalSince1970"]
+- !private ["s8HashableP", "uuidString"]
+- ["4JSONAAV", "string"]
+- ["4JSONAAV", "subscript"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- ["4JSON17JSONRepresentableP", "string"]
+- ["4JSON17JSONRepresentableP", "subscript"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- ["4HTTP13KeyAccessibleP", "subscript"]
+- ["4HTTP13KeyAccessibleP", "updateValue"]
+- ["4HTTP13KeyAccessibleP", "values"]
+- ["7Configs13KeyAccessibleP", "subscript"]
+- ["7Configs13KeyAccessibleP", "updateValue"]
+- ["7Configs13KeyAccessibleP", "values"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["4HTTP7MessageP", "json"]
+- ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- ["4Node0A13InitializableP", "_getBuiltinLogicValue"]
+- ["4Node0A13InitializableP", "init"]
+- ["4Node0A13InitializableP", "setup"]
+- ["4Node0A13InitializableP", "string"]
+- ["4Node0A13InitializableP", "subscript"]
+- ["4Node0A13InitializableP", "timeIntervalSince1970"]
+- ["4Node0A13InitializableP", "updateValue"]
+- !private ["4Node0A13InitializableP", "uuidString"]
+- ["4Node0A13InitializableP", "values"]
+- ["4Node0A13RepresentableP", "_getBuiltinLogicValue"]
+- ["4Node0A13RepresentableP", "init"]
+- ["4Node0A13RepresentableP", "json"]
+- ["4Node0A13RepresentableP", "setup"]
+- ["4Node0A13RepresentableP", "string"]
+- ["4Node0A13RepresentableP", "subscript"]
+- ["4Node0A13RepresentableP", "timeIntervalSince1970"]
+- ["4Node0A13RepresentableP", "updateValue"]
+- !private ["4Node0A13RepresentableP", "uuidString"]
+- ["4Node0A13RepresentableP", "values"]
+- !private ["s9OptionSetP", "allowFragments"]
+- ["7Routing15ParameterizableP", "init"]
+- ["13PathIndexableAAP", "init"]
+- ["13PathIndexableAAP", "setup"]
+- ["13PathIndexableAAP", "string"]
+- ["13PathIndexableAAP", "subscript"]
+- ["13PathIndexable0A7IndexerP", "init"]
+- ["3Run12PostDataBaseV", "String"]
+- ["3Run12PostDataBaseV", "TestResponse"]
+- ["3Run12PostDataBaseV", "init"]
+- ["3Run12PostDataBaseV", "posts"]
+- ["s22RandomAccessCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "allowFragments"]
+- !private ["So17JSONSerializationC14ReadingOptionsV", "allowFragments"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["4HTTP7RequestC", "json"]
+- ["5Vapor23RequestContentSubscriptP", "init"]
+- ["4HTTP9ResponderP", "delete"]
+- ["4HTTP9ResponderP", "get"]
+- ["4HTTP9ResponderP", "init"]
+- ["4HTTP9ResponderP", "patch"]
+- ["4HTTP9ResponderP", "post"]
+- ["4HTTP9ResponderP", "run"]
+- ["4HTTP9ResponderP", "setup"]
+- ["4HTTP21ResponseRepresentableP", "init"]
+- ["4HTTP21ResponseRepresentableP", "string"]
+- ["4HTTP21ResponseRepresentableP", "subscript"]
+- ["7Routing12RouteBuilderP", "delete"]
+- ["7Routing12RouteBuilderP", "get"]
+- ["7Routing12RouteBuilderP", "init"]
+- ["7Routing12RouteBuilderP", "patch"]
+- ["7Routing12RouteBuilderP", "post"]
+- ["7Routing12RouteBuilderP", "run"]
+- ["7Routing12RouteBuilderP", "setup"]
+- ["s8SequenceP", "init"]
+- ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "updateValue"]
+- ["s8SequenceP", "values"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["4Node21StructuredDataWrapperP", "init"]
+- ["4Node21StructuredDataWrapperP", "setup"]
+- ["4Node21StructuredDataWrapperP", "string"]
+- ["4Node21StructuredDataWrapperP", "subscript"]
+- !private ["3Run12TestResponseV", "CodingKeys"]
+- !private ["3Run12TestResponseV", "Date"]
+- ["3Run12TestResponseV", "String"]
+- ["3Run12TestResponseV", "TimeInterval"]
+- !private ["3Run12TestResponseV", "UUID"]
+- ["3Run12TestResponseV", "date_create"]
+- ["3Run12TestResponseV", "date_update"]
+- ["3Run12TestResponseV", "deinit"]
+- ["3Run12TestResponseV", "encode"]
+- ["3Run12TestResponseV", "id"]
+- ["3Run12TestResponseV", "init"]
+- ["3Run12TestResponseV", "text"]
+- ["3Run12TestResponseV", "title"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- ["s21_ObjectiveCBridgeableP", "updateValue"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- ["s21_ObjectiveCBridgeableP", "values"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "4HTTP17BodyRepresentableP"
+- "Sb"
+- "4Bits16BytesConvertibleP"
+- "4Bits18BytesInitializableP"
+- "4Bits18BytesRepresentableP"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "7Configs6ConfigC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s10DictionaryV"
+- "5Vapor7DropletC"
+- "4SMTP25EmailAddressRepresentableP"
+- "4SMTP22EmailBodyRepresentableP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "4Node14FuzzyConverterP"
+- "s8HashableP"
+- "4JSONAAV"
+- !private "10Foundation11JSONEncoderC"
+- "4JSON17JSONRepresentableP"
+- !private "So17JSONSerializationC"
+- "4HTTP13KeyAccessibleP"
+- "7Configs13KeyAccessibleP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "4HTTP7MessageP"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "4Node0A13InitializableP"
+- "4Node0A13RepresentableP"
+- !private "s9OptionSetP"
+- "7Routing15ParameterizableP"
+- "13PathIndexableAAP"
+- "13PathIndexable0A7IndexerP"
+- "3Run12PostDataBaseV"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "So17JSONSerializationC14ReadingOptionsV"
+- "10Foundation20ReferenceConvertibleP"
+- "4HTTP7RequestC"
+- "5Vapor23RequestContentSubscriptP"
+- "4HTTP9ResponderP"
+- "4HTTP21ResponseRepresentableP"
+- "7Routing12RouteBuilderP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "SS"
+- "s14StringProtocolP"
+- "4Node21StructuredDataWrapperP"
+- "3Run12TestResponseV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation4UUIDV"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/URI.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/SMTP.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/HTTP.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/TLS.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/FormData.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Cache.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Routing.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Crypto.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/App.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/FluentProvider.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Vapor.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Branches.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Cookies.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Configs.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Sessions.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Sockets.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/WebSockets.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/BCrypt.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Multipart.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ac502ae77a3d475a95524641450905dc"

@@ -1,0 +1,57 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConsoleColor"
+provides-nominal:
+- "7Console0A5ColorO"
+provides-member:
+- ["7Console0A5ColorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "ConsoleColor"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+depends-member:
+- ["7Console0A5ColorO", "__derived_enum_equals"]
+- ["7Console0A5ColorO", "black"]
+- ["7Console0A5ColorO", "blue"]
+- ["7Console0A5ColorO", "cyan"]
+- ["7Console0A5ColorO", "deinit"]
+- ["7Console0A5ColorO", "green"]
+- ["7Console0A5ColorO", "hashValue"]
+- ["7Console0A5ColorO", "magenta"]
+- ["7Console0A5ColorO", "red"]
+- ["7Console0A5ColorO", "white"]
+- ["7Console0A5ColorO", "yellow"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "hashValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "hashValue"]
+depends-nominal:
+- "7Console0A5ColorO"
+- "s9EquatableP"
+- "s8HashableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e7cd26b56dcb800c4b3af2dc9565f7f2"

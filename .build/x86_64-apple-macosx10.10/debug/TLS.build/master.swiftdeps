@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "eba7460370f8dfd7323652fcaab1f0d0"
+build_time: [1523381968, 561809000]
+inputs:
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Certificates.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ClientSocket.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Context.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Error.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Exports.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/InternetSocket.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Mode.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ReadableSocket.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ServerSocket.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Socket.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Utilities.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/WriteableSocket.swift": [1523381901, 0]

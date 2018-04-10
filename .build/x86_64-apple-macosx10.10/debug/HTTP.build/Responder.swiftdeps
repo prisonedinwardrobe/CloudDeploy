@@ -1,0 +1,69 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Responder"
+- "BasicResponder"
+provides-nominal:
+- "4HTTP9ResponderP"
+- "4HTTP14BasicResponderV"
+provides-member:
+- ["4HTTP9ResponderP", ""]
+- ["4HTTP14BasicResponderV", ""]
+- ["4HTTP7RequestC", ""]
+- ["4HTTP7RequestC", "Handler"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BasicResponder"
+- "Request"
+- "Responder"
+- "Response"
+depends-member:
+- ["4HTTP14BasicResponderV", "Closure"]
+- ["4HTTP14BasicResponderV", "Request"]
+- ["4HTTP14BasicResponderV", "Response"]
+- ["4HTTP14BasicResponderV", "closure"]
+- ["4HTTP14BasicResponderV", "deinit"]
+- ["4HTTP14BasicResponderV", "init"]
+- ["4HTTP14BasicResponderV", "respond"]
+- ["4HTTP7RequestC", "BasicResponder"]
+- ["4HTTP7RequestC", "Handler"]
+- ["4HTTP9ResponderP", "Request"]
+- ["4HTTP9ResponderP", "Response"]
+- ["4HTTP9ResponderP", ""]
+- !private ["4HTTP9ResponderP", "closure"]
+- ["4HTTP9ResponderP", "respond"]
+depends-nominal:
+- "4HTTP14BasicResponderV"
+- "4HTTP7RequestC"
+- "4HTTP9ResponderP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/URI.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/TLS.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Sockets.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4ecf1d3f768ea274846e31cd5b7eb01a"

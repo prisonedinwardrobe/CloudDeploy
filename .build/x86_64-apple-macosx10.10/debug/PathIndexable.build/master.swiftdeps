@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "6d5e12d2795a9757bd44fe3c9e90794d"
+build_time: [1523381934, 886069000]
+inputs:
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/node.git-9175390252000121167/Sources/PathIndexable/PathIndexable+Subscripting.swift": [1523381901, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/node.git-9175390252000121167/Sources/PathIndexable/PathIndexable.swift": [1523381901, 0]

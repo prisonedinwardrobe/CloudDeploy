@@ -1,0 +1,55 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Command"
+provides-nominal:
+- "7Console7CommandP"
+provides-member:
+- ["7Console7CommandP", ""]
+- ["7Console7CommandP", "signature"]
+- ["7Console7CommandP", "help"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Argument"
+- "Command"
+- "ConsoleProtocol"
+- "Runnable"
+- "String"
+depends-member:
+- ["7Console7CommandP", "Argument"]
+- ["7Console7CommandP", "ConsoleProtocol"]
+- ["7Console7CommandP", "String"]
+- ["7Console7CommandP", "console"]
+- ["7Console7CommandP", "help"]
+- ["7Console7CommandP", "run"]
+- ["7Console7CommandP", "signature"]
+- ["7Console8RunnableP", "Argument"]
+- ["7Console8RunnableP", "ConsoleProtocol"]
+- ["7Console8RunnableP", "String"]
+- ["7Console8RunnableP", ""]
+depends-nominal:
+- "7Console7CommandP"
+- "7Console8RunnableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0533725072bd11c4dcad8a8a66444eec"

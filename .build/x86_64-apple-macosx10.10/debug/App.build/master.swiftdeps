@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "ce3a7889abd8968a3e40ca3bc4d20141"
+build_time: [1523382025, 878046000]
+inputs:
+  "/Users/leonid/Documents/GitHub/CloudDeploy/Sources/App/Controllers/PostController.swift": [1523381304, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/Sources/App/Models/Post.swift": [1523381304, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/Sources/App/Routes/Routes.swift": [1523381304, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/Sources/App/Setup/Config+Setup.swift": [1523381304, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/Sources/App/Setup/Droplet+Setup.swift": [1523381304, 0]

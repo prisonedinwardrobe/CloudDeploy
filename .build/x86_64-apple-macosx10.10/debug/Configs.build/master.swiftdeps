@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "4c734efef49e11829c3094696bac0432"
+build_time: [1523381966, 635146000]
+inputs:
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config+Arguments.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config+Directory.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/ConfigError.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/ConfigInitializable.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/Env.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/Node+Env.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/String+Env.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Environment.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/KeyAccessible+Merge.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/KeyAccessible.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Node+Merge.swift": [1523381907, 0]
+  "/Users/leonid/Documents/GitHub/CloudDeploy/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Source.swift": [1523381907, 0]

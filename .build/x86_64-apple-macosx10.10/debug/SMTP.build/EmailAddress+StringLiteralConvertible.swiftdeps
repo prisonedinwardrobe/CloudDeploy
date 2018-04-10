@@ -1,0 +1,92 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "4SMTP12EmailAddressV"
+provides-member:
+- ["4SMTP12EmailAddressV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "EmailAddress"
+- "ExpressibleByStringLiteral"
+- "String"
+depends-member:
+- ["4SMTP12EmailAddressV", "ExtendedGraphemeClusterLiteralType"]
+- ["4SMTP12EmailAddressV", "String"]
+- ["4SMTP12EmailAddressV", "StringLiteralType"]
+- ["4SMTP12EmailAddressV", "UnicodeScalarLiteralType"]
+- ["4SMTP12EmailAddressV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["4SMTP12EmailAddressV", "_Default_StringLiteralType"]
+- ["4SMTP12EmailAddressV", "_Default_UnicodeScalarLiteralType"]
+- ["4SMTP12EmailAddressV", "deinit"]
+- ["4SMTP12EmailAddressV", "init"]
+- ["4SMTP25EmailAddressRepresentableP", "ExtendedGraphemeClusterLiteralType"]
+- ["4SMTP25EmailAddressRepresentableP", "StringLiteralType"]
+- ["4SMTP25EmailAddressRepresentableP", "UnicodeScalarLiteralType"]
+- ["4SMTP25EmailAddressRepresentableP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["4SMTP25EmailAddressRepresentableP", "_Default_StringLiteralType"]
+- ["4SMTP25EmailAddressRepresentableP", "_Default_UnicodeScalarLiteralType"]
+- ["4SMTP25EmailAddressRepresentableP", "init"]
+- ["s9EquatableP", "ExtendedGraphemeClusterLiteralType"]
+- ["s9EquatableP", "StringLiteralType"]
+- ["s9EquatableP", "UnicodeScalarLiteralType"]
+- ["s9EquatableP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s9EquatableP", "_Default_StringLiteralType"]
+- ["s9EquatableP", "_Default_UnicodeScalarLiteralType"]
+- ["s9EquatableP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+depends-nominal:
+- "4SMTP12EmailAddressV"
+- "4SMTP25EmailAddressRepresentableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Sockets.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/leonid/Documents/GitHub/CloudDeploy/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c3e1b05c325de25585f4d1d95f1c4655"
